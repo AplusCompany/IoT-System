@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>IoT Syestem</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">    
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+        <!-- Spinner Start -->
+        <div id="spinner" class="show position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-white" style="width: 4rem; height: 4rem; border-width: 0.9rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Content Start -->
+        <div class="content open">
+                <div class="navbar navbar-expand-sm fixed-top">
+                <a href="#home">
+                    <div class="">
+                <img class="rounded-circle" src="img/user.jpg" alt="" style="width: 50px; height: 50px;">
+                    </div>
+                </a>
+                <button class="navbar-toggler p-0" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu">
+                    <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="main-menu">
+                    <ul class="navbar-nav ms-auto forward-cont"><!--ms=>margin start meaning margin left-->
+                    <li class="nav-items "><a href="#sec-1" class="nav-link forward">Aim & Scope</a></li>
+                    <li class="nav-items "><a href="#sec-2" class="nav-link forward">Results</a></li>
+                    <li class="nav-items "><a href="#sec-3" class="nav-link forward">Predictions</a></li>
+                    </ul>
+                </div>
+                <div id="reading-progress"><div id="reading-progress-fill"></div></div>
+                </div>
+            <!-- Navbar Start -->
+            <!-- <nav class=" navbar navbar-expand d-flex sticky-top px-4 py-0">
+                <img class="rounded-circle me-lg-2" src="img/user.jpg" alt="" style="width: 50px; height: 50px;">
+                <div class="navbar-nav align-items-center ms-auto">
+                    <div class="nav-item dropdown">
+                        <div class="nav-link">
+                            <div class="forward-cont">
+                            <a class="forward" href="#sec-1">Aim & Scope</a>
+                            <a class="forward" href="#sec-2">Results</a>
+                            <a class="forward" href="#sec-3">Predictions Calculator</a>
+                            </div>
+                <a href="#" class="sidebar-toggler flex-shrink-0">
+                    <i class="fa fa-bars"></i>
+                </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="reading-progress"><div id="reading-progress-fill"></div></div>
+            </nav> -->
+            <!-- Navbar End -->
+
+            <!--aim and scope start-->
+
+            <div class=" section container-fluid pt-4 px-5 " id="sec-1">
+                <div class="row g-4">
+                    <div class="aim-scope">
+                        <div class="main-sec-title" >
+                            <h1 class="sec-title aim-scope-title">Aim & Scope</h1>
+                        </div>
+                        <div class="text mt-1">
+                        Sea-level rise is a critical issue for countries worldwide, especially Egypt. 
+                        Thus, we worked on a project to accurately measure the changes in 
+                        the Mediterranean Sea level and take studied actions. On this website, we intend to:
+                        </div>    
+                    </div>
+                </div>
+            </div>
+
+            <div class="section container-fluid pt-4 px-4 d-flex justify-content-around" >
+                <div class=" container-fluid cards-section row g-4">
+                    <div class="col-sm-6 col-xl-4 mx-0">
+                        <div href="#" class="card education">
+                        <div class="overlay"></div>
+                        <div class="circle">
+                            <i class="card-icon fa fa-shield-alt"></i>
+                        </div>
+                        <div class="card-title ">Awareness</div>
+                        <p class=" card-text">Increase the awareness of people about the dangers of sea-level rise on our lives.</p>
+                        </div>
+                    </div>
+                    <div class=" col-sm-6 col-xl-4 mx-0">
+                        <div href="#" class="card education">
+                        <div class="overlay"></div>
+                        <div class="circle">
+                            <i class="card-icon fa fa-broadcast-tower"></i>                        
+                        </div>
+                        <div class="card-title">Communication</div>
+                        <p class="card-text">Share the results and data we collected from testing our project model.</p>                        
+                        </div>
+                    </div>
+                    <div class=" col-sm-6 col-xl-4 mx-0">
+                        <div href="#" class="card education">
+                        <div class="overlay"></div>
+                        <div class="circle">
+                            <i class="card-icon fa fa-pen"></i>
+                        </div>
+                        
+                        <div class=" card-title">Suggest Actions</div>
+                        <p class="card-text">Encourage people and the government to take measures against sea-level rise.</p>                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--aim and scope end-->
+
+            <!-- Charts Start-->
+            <div class="section container-fluid pt-4 px-5" id="sec-2">
+                <div class="row g-4">
+                    <div class="main-sec-title">
+                        <h1 class="sec-title results-title">Results</h1>
+                    </div>
+                    <div class="text mt-1">
+                        The following table displays the data collected during 
+                        the experiment we performed to measure the Mediterranean level rise using 
+                        Ultrasonic Sensors:
+                        </div>
+                    <div class="col-sm-12 col-xl-6 ">
+                        <div class=" bg-color text-center rounded p-4">
+                            <h6 class="mb-0">Ultrasonic Sensor Measurements</h6>
+                            <div class=" d-flex align-items-center justify-content-between mb-4">
+                            </div>
+                            <canvas id="worldwide-sales" height="230rem"></canvas>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-xl-6">
+                        <div class=" bg-color text-center rounded p-4">
+                            <h6 class="mb-0">Relation between temperature changes and sea level rise</h6>
+                            <div class=" d-flex align-items-center justify-content-between mb-4">
+                            </div>
+                            <canvas id="salse-revenue" height="230rem" ></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Charts End -->
+
+
+            <!-- Predictions Start -->
+            <div class="section container-fluid pt-4 px-5" id="sec-3">
+                <h1 class=" sec-title prediction-title">Predictions Calculator</h1>
+                <div class="text mt-1">
+                        After collecting and analyzing the data, and concluding the robust relation between the 
+                        temperaute change and sea level rise, some predictions for the 
+                        Mediterranean Sea level rise are expected for the next 90 years.
+                        </div>
+                <div class="mt-4 row bg-color text-center rounded" style="margin: 0;">
+                    <div class="">
+                        <div class="align-items-center justify-content-between prediction-content py-2">
+                            <div class="values-shown-here mt-2">
+                            <div class="col-5 long item-temp-long item-temp" id="item-temp-long">Temperature Change</div>
+                            <div class="col-5 long item-length-long item-length" id="item-length-long">Sea Level Rise</div>
+                            </div>
+                            <div class="years-shown-here">
+                            <button class="col-5 item item2030" value="1.17" id="0.98">2030</button>
+                            <button class="col-5 item item2040" value="1.50" id="1.26">2040</button>
+                            <button class="col-5 item item2050" value="1.68" id="1.41">2050</button>
+                            <button class="col-5 item item2060" value="1.86" id="1.56">2060</button>
+                            <button class="col-5 item item2070" value="2.06" id="1.73">2070</button>
+                            <button class="col-5 item item2080" value="2.30" id="1.93">2080</button>
+                            <button class="col-5 item item2090" value="2.60" id="2.10">2090</button>
+                            <button class="col-5 item item2100" value="3.00" id="2.52">2100</button>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+            <!-- Recent Sales End -->
+
+
+
+            <!-- Footer Start -->
+            <div class="  pt-4">
+                <div class=" footer p-3">
+                    <div class="row">
+                        <div class="footer-text">
+                            Created by <span>A+ Company</span> | <i class="far fa-copyright"></i> All Right Reserved. 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer End -->
+        </div>
+        <!-- Content End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-lg-square back-to-top"><i class="fas fa-chevron-up"</a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/chart/chart.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
