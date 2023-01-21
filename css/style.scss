@@ -468,8 +468,18 @@ box-shadow: 0 24px 36px rgba(0,0,0,0.11),
     align-items: center;
     .footer-text{
         font-size: 1rem;
-        font-weight: bold;    
+        font-weight: bold;
+        text-align: center;   
+        padding-top: 1rem;
         span{
+            color: var(--color-new);
+            font-weight: bold;
+        }
+    }
+    .survey{
+        text-align: center;
+        font-size: 1.1rem;
+        a{
             color: var(--color-new);
             font-weight: bold;
         }
@@ -532,4 +542,3 @@ nav{
     transition: var(--transition);
     }
 }
-
